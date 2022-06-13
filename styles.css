@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(to right, #C0D8DE 37%, #E4E6E7 37%);
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container-column {
+    text-align: center;
+
+}
+
+.flex-container-column .left-column {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.left-column {
+    flex-basis: 37%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-column {
+
+    flex-basis: 63%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-column h2 {
+    background-color: #222;
+    color: #FFF;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 55%;
+    width: 30%;
+}
+
+a {
+    color: #222;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+ul {
+    padding-left: 0;
+    /* Сдвигаем список влево */
+}
+
+.main-info {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.surname {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+}
+
+footer {
+    flex-shrink: 0;
+    margin-left: 50%;
+}
+
+footer span {
+    margin-left: 100px;
+}
+
+.skills-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
